@@ -1,7 +1,7 @@
 import DatePickerOne from '../DatePicker/DatePickerOne';
 import { Link } from 'react-router-dom';
 
-function BalanceSheet() {
+function Activity() {
   return (
     <>
       <div className="grid grid-cols-1 mb-5 gap-9 sm:grid-cols-2 ">
@@ -29,7 +29,7 @@ function BalanceSheet() {
                 to="#"
                 className="inline-flex items-center justify-center rounded-full bg-primary py-4  px-10 text-center font-medium text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
               >
-                Balance Sheet
+                Date Wise Activity
               </Link>
             </div>
           </div>
@@ -39,4 +39,4 @@ function BalanceSheet() {
   );
 }
 
-export default BalanceSheet;
+export default Activity;

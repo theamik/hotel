@@ -1,16 +1,7 @@
 import DatePickerOne from '../DatePicker/DatePickerOne';
-import { useState } from 'react';
-import Select from 'react-select';
 import { Link } from 'react-router-dom';
 
-const options = [
-  { value: 'chocolate', label: 'Chocolate' },
-  { value: 'strawberry', label: 'Strawberry' },
-  { value: 'vanilla', label: 'Vanilla' },
-];
-
 function DayBook() {
-  const [selectedOption, setSelectedOption] = useState(null);
   return (
     <>
       <div className="grid grid-cols-1 mb-5 gap-9 sm:grid-cols-2 ">
